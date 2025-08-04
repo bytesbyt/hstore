@@ -5,3 +5,38 @@ body {
 footer {
     background-color: white;
 }
+
+.first-line {
+    border-bottom: 1px solid #F6F1EB;
+}
+
+.second-line a {
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 48rem) {
+    .first-line {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #F6F1EB;
+    }
+}
+
+.third-line {
+    display: none;
+}
+
+@media screen and (max-width: 48rem) {
+    .third-line {
+        display: block;
+        text-align: center;
+    }
+}
